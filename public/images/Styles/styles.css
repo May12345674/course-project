@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Top Nav */
+.topnav {
+    background-color: #063C5E;
+}
+
+
+
+/* Footer */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #063C5E;
+    color: white; 
+    border-top: 3px solid  #FCCF14;
+}
+li
+{
+    list-style-type: none;
+}
+.link-default a {
+    color: white;
+}
