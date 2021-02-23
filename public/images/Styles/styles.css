@@ -1,16 +1,225 @@
-body {
+html, body {
+    height: 100%;
     width: 100%;
     max-width: 100vw;
     margin: 0;
     overflow-x: hidden;
 }
 
-/* Top Nav */
-.topnav {
+#main-header {
     background-color: #063C5E;
 }
 
+/* Top Nav */
+.topnav {
+    background-color: #063C5E;
+    overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of the links on Hover */
+.topnav a:hover {
+    color: yellow;
+    font: bold;
+}
+
+/* Change color of links on active/current link */
+.topnav a.active {
+    background-color: yellow;
+    color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#grad1 {
+    background-image: linear-gradient( #FFFFFF, #009E9E, #006B6B);
+}
+
+.box-1 {
+    background-color: white;
+
+    border: 5px  #063C5E solid;
+
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.box-1 h1 {
+    color: #063C5E;
+    text-align: center;
+}
+
+.box-1 h2 {
+    color: #063C5E;
+    text-align: center;
+}
+
+.box-2 {
+    background-color: white;
+
+    border: 5px  #063C5E solid;
+
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.box-2 h2 {
+    color: #063C5E;
+    text-align: center;
+}
+
+.box-3 {
+    background-color: white;
+
+    border: 5px  #063C5E solid;
+
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.box-3 h2 {
+    color: #063C5E;
+    text-align: center;
+}
+
+.box-3 form {
+    text-align: right;
+    width: 50%;
+    margin: 90px;
+}
+
+.button {
+    background-color: rgb(245, 211, 61);
+    border: 1px solid #063C5E;
+    color: #063C5E;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px
+}
+
+button#button1 {
+    width: 15%;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+
+.button3 {
+    background-color: rgb(245, 211, 61);
+    border: 1px solid #063C5E;
+    color: #063C5E;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 80px;
+    font-size: 10px
+}
+
+table#table1 {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.comics {
+    border: 1px solid #063C5E; 
+    border-collapse: collapse;
+}
+
+.comics th {
+    border: 1px solid #063C5E; 
+    background-color: lightgray;
+    padding: 12px 8px;
+}
+
+.comics td {
+    border: 1px solid #063C5E; 
+    padding: 8px;
+}
+
+.comics td button { 
+    background-color: #063C5E;
+    border: 1px solid #063C5E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 10px
+}
+
+.comics td .button2{
+    background-color: rgb(245, 211, 61);
+    border: 1px solid #063C5E;
+    color: #063C5E;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px
+}
+
+.comics tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.CC {
+    width: 70%;
+    border: 3px solid yellow;
+    border-radius: 25px;
+    margin: 10px auto;
+    background-color: #063C5E;
+}
+
+.CC-top {
+    background-color: #063C5E;
+    width: 100%;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.CC-top h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.CC-bottom {
+    border: 3px solid yellow;
+    background: white;
+    margin: 10px 0 0 0;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: left;
+}
+
+.CC-bottom u {
+    color: #063C5E;
+}
 
 /* Footer */
 
@@ -19,11 +228,43 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 500px;
+    height: 180px;
     background-color: #063C5E;
     color: white; 
     border-top: 3px solid  #FCCF14;
 }
+
+.footer .footer-content {
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 2;
+   padding: 25px
+}
+
+.footer .footer-content .footer-section h3 {
+    color: rgb(245, 211, 61);;
+}
+
+.footer .footer-content .footer-section .visitus span {
+    display: block;
+}
+
+.footer .footer-content .footer-section a {
+    text-decoration: none;
+}
+
+.footer .footer-content .footer-section a:hover {
+    color: yellow;
+    font: bold;
+}
+
+.footer .footer-content .footer-section a:active {
+    background-color: yellow;
+    color: blue;
+}
+
 li
 {
     list-style-type: none;

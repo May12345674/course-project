@@ -5,23 +5,26 @@
         <link rel="stylesheet" type="text/css" href="./public/images/Styles/styles.css">
     </head>
     <body>
-        <div class="topnav">
+        <header id="main-header">
             <a href="index.html" target="_Self">
-            <img src="Public/images/CodeSquad-Comics-logo.png" alt="CodeSquad Comics Logo" style="width: 200px;">
-            </a>
-            <ul>
-                <li class="link-default"><a href="#">Home</a></li>
-                <li class="link-default"><a href="about.html">About</a></li>
-                <li class="link-default"><a href="login.html">Login</a></li> <br>
-            </ul>
+                <img src="Public/images/CodeSquad-Comics-logo.png" alt="CodeSquad Comics Logo" style="width: 200px;">
+                </a>
+        </header>
+        <div class="topnav">
+            <a href="#">Home</a></li>
+            <a href="about.html">About</a></li>
+            <a href="login.html">Login</a></li> <br>
         </div>
+        <div id="grad1">
+        <div class="container">
+          <div class="box-3">
         <h2>CREATE NEW COMIC</h2>
-       <form>
-           <label for="Title">Title</label>
+        <form>
+           <label for="Title">Title:</label>
                <input type="text" id="Title" name="Title"> <br> <br>
-           <label for="Author">Author</label>
+           <label for="Author">Author:</label>
                <input type="text" id="Author" name="Author"></p>
-           <label for="Publisher">Publisher</label>
+           <label for="Publisher">Publisher:</label>
                <select name="Publisher" id="Publisher">
                    <option value="Select">Select</option>
                    <option value="BOOM! Box">BOOM! Box</option>
@@ -34,40 +37,54 @@
                    <option value="Top Shelf Productions">Top Shelf Productions</option>
                    <option value="VIZ Media LLC">Viz Media LLC</option>
                </select> <br> <br>
-           <label for="Genre">Genre</label>
+           <label for="Genre">Genre:</label>
            <input type="text" id="Genre" name="Genre"> <br> <br>
-           <label for="Number">Number</label>
-               <input type="number"> <br> <br>
-           <label for="Rating">Rating</label>
+           <label for="Number of Pages">Number of Pages:</label>
+               <input type="number of pages" width="50%"> <br> <br>
+           <label for="Rating">Rating:</label>
                <input type="text" id="Rating" name="Rating"> <br> <br>
-           <label for="Synopsis">Synopsis</label>
+           <label for="Synopsis">Synopsis:</label>
                <input type="text" id="Synopsis" name="Synopsis"> <br> <br>
-           <input type="submit" value="Submit">
+           <button type="button" class="button3">Submit</button>
        </form>
-       <div class="footer"> <br>
-        <p><footer><h3>VISIT US</h3>
-        <address>
-            Codesquad Comics
-            <br> 123 Dorchester Avenue
-            <br> Boston, MA 02124
-        </address>
-        <h3>LINKS</h3>
-        <li class="link-default">
-        <a href="#">Home</a> <br>
-        </li>
-        <li class="link-default">
-        <a href="about.html">About</a> <br>
-        </li>
-        <li class="link-default"><a href="login.html">Login</a></li>
-        <h3>FOLLOW US</h3>
-        <li class="link-default"><a href="#">Facebook</a> <br></li>
-        <li class="link-default"><a href="#">Instagram</a> <br></li>
-        <li class="link-default"><a href="#">Twitter</a></li>
-        <h3>A PRODUCT OF</h3>
-        <a href="http://codesquad.org/" target="_blank" rel="noopener noreferrer">
-        <img src="Public/images/CodeSquad-logo-a.png" alt="CodeSquad Logo" style="width: 150px;">
-        </a>
-        </footer></p>
+      </div>
+    </div>
+    </div>
+   </div>
+      <!--Footer-->
+      <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section VISIT US">
+              <h3>VISIT US</h3>
+              <address>
+              Codesquad Comics
+              <br> 123 Dorchester Avenue
+              <br> Boston, MA 02124
+             </address>
+            </div>
+            <div class="footer-section LINKS">
+              <h3>LINKS</h3>
+              <li class="link-default">
+               <a href="#">Home</a> <br>
+              </li>
+               <li class="link-default">
+              <a href="about.html">About</a> <br>
+              </li>
+               <li class="link-default"><a href="login.html">Login</a></li>
+            </div>
+            <div class="footer-section FOLLOW US">
+              <h3>FOLLOW US</h3>
+              <li class="link-default"><a href="#">Facebook</a> <br></li>
+              <li class="link-default"><a href="#">Instagram</a> <br></li>
+              <li class="link-default"><a href="#">Twitter</a></li>
+            </div>
+            <div class="footer-section A PRODUCT OF">
+              <h3>A PRODUCT OF</h3>
+              <a href="http://codesquad.org/" target="_blank" rel="noopener noreferrer">
+              <img src="Public/images/CodeSquad-logo-a.png" alt="CodeSquad Logo" style="width: 150px;">
+              </a>
+            </div>
         </div>
-    </body>
+      </div>
+  </body>
        
